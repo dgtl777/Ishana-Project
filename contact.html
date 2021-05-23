@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background:url('https://image.freepik.com/free-photo/high-angle-view-white-flowers-blue-backdrop_23-2148076672.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            text-align:center;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .nav{
+            height:60px;
+            background-color: #91ADB4;
+            display:flex;
+            align-items: center;
+            font-family:'Courier New', Courier, monospace;
+            width:100%;
+        }
+        .logo{
+            margin-left:10px;
+            color:white;
+        }
+        .navlinks{
+            color:white;
+            display:flex;
+            margin-left: auto;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        li{
+            font-weight:bolder;
+            list-style: none;
+            padding:10px;
+            padding-right: 10px;
+        }
+        form{
+            background-color:#cdb7f6;
+            width:600px;
+            margin:auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 10px black;
+            padding-bottom: 40px;
+            margin-top:50px;
+            height:400px;
+        }
+        .contact{
+            font-weight: bolder;
+            font-size:20px;
+        }
+        .enter{
+            margin-left: 10px;
+            margin-right:auto;
+        }
+        .submit{
+            color:rgb(204, 153, 255);
+            width:35%;
+            margin:auto;
+            display:block;
+            font-weight:bolder;
+            color:black;
+            border:none;
+            border-radius: 10px;
+            font-size:18px;
+            font-family:'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h2 class="logo">Blog</h2>
+        <ul class="navlinks">
+        <a href="main.html">
+            <li>
+                Home
+            </li>
+        </a>
+        <a href="about.html">
+            <li>
+                About
+            </li>
+        </a>
+        <a href="contact.html">
+            <li>
+                Contact
+            </li>
+        </a>
+        </ul>
+    </div>
+    <form>
+        <fieldset>
+            <legend class="contact"><h2>CONTACT</h2></legend>
+            <label for="" class="enter">Enter Name:</label>
+            <input type="text"><br><br>
+            <label for="" class="enter">Enter Number:</label>
+            <input type="tel"><br><br>
+            <label for="" class="enter">Enter Email:</label>
+            <input type="email"><br><br>
+            <label for="">Any comments:</label><br>
+            <textarea name="" id="" cols="40" rows="3"></textarea><br><br>
+            <input class="submit" type="submit" formaction="thank you.html"><br>
+        </fieldset>
+    </form>
+</body>
+</html>

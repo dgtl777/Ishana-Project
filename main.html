@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding:0;
+            margin:0;
+        }
+        body{
+            background-color:#ECE3D9;
+            text-align:center;
+        }
+        .nav{
+            height:60px;
+            background-color: #91ADB4;
+            display:flex;
+            align-items: center;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .logo{
+            margin-left:10px;
+            color:white;
+        }
+        .navlinks{
+            color:white;
+            display:flex;
+            margin-left: auto;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        li{
+            font-weight:bolder;
+            list-style: none;
+            padding:10px;
+            padding-right: 10px;
+        }
+        .intro{
+            background-color:#A8C8CF;
+            margin-top:20px;
+            padding:10px;
+        }
+        .suhani{
+            background-color: #F3D7B2;
+            margin-top:20px;
+            margin-bottom:10px;
+            width:100%;
+            height:780px;
+        }
+        .first, .second, .third{
+            flex:1;
+        }
+        .ishana{
+            background-color:#F3D7B2;
+            margin-bottom:30px;
+            margin-top:50px;
+            width:100%;
+        }
+        .photos{
+            width:100%;
+            height:300px;
+            display: flex;
+            padding:10px;
+        }
+        .one,.two,.three{
+            flex:1;
+        }
+        img{
+            width:100%;
+            height:100%;
+        }
+        .painting{
+            display:flex;
+            height:400px;
+            width:100%;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h2 class="logo">Blog</h2>
+        <ul class="navlinks">
+        <a href="main.html">
+            <li>
+                Home
+            </li>
+        </a>
+        <a href="about.html">
+            <li>
+                About
+            </li>
+        </a>
+        <a href="contact.html">
+            <li>
+                Contact
+            </li>
+        </a>
+        </ul>
+    </div>
+    <div class="intro">
+        <marquee direction="left">
+        <h1>WELCOME TO THIS BLOG</h1><br>
+        </marquee>
+        <h2>This is a short blog where me and my sister share some of our Projects</h2>
+    </div>
+    <div class="suhani">
+    <h2>Suhani's Projects-Art</h2>
+        <div class="painting">
+        <div class="first">
+        <img src="bird.jpeg">
+        <img class="long" src="buddha.JPG" alt="">
+        </div>
+        <div class="second">
+        <img src="bear.JPG">
+        <img class="long" src="https://static.wixstatic.com/media/66c27d_d75af557bf8e467a9d252526ae7df292~mv2.jpg/v1/fill/w_532,h_757,al_c,q_90,usm_0.66_1.00_0.01/66c27d_d75af557bf8e467a9d252526ae7df292~mv2.webp" alt="">
+        </div>
+        <div class="third">
+        <img src="cat.jpeg" alt="">
+        <img src="musician.jpeg" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="ishana">
+        <h2>Ishana's Projects-Photography</h2>
+        <div class="photos">
+            <div class="one">
+        <img src="SAM_4366.jpg" alt="">
+        <img src="SAM_4464.JPG" alt="">
+        </div>
+        <div class="two">
+        <img src="SAM_4481.JPG" alt="">
+        <img src="SAM_4669.JPG" alt="">
+        </div>
+        <div class="three">
+        <img src="SAM_4528.JPG" alt="">
+        <img src="SAM_4503.JPG" alt="">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
